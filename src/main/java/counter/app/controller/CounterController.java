@@ -27,7 +27,7 @@ import lombok.extern.slf4j.Slf4j;
 public class CounterController {
 
   public static boolean started = true;
-  public static long interval = 5000;
+  public static long interval = 5000;  
 
   @GetMapping("/start")
   public String startTask() {
